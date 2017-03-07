@@ -4,8 +4,11 @@
 ##T.P. 4
 ##Mail, JNDI, SAX
 L’objectif de ce TP en deux parties est de mettre en place un logiciel ayant l’objectif suivant :
+
 — un client se connecte `a un serveur et donne un nom de r ́epertoire et une adresse mail
+
 — le serveur envoie par mail le contenu du r ́epertoire
+
 Plus techniquement, l’objectif est de vous faire pratiquer les modules suivants :
 — JavaMail : pour l’envoi par mail
 — JNDI : pour la lecture du r ́epertoire
