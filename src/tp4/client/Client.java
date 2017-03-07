@@ -11,7 +11,7 @@ import java.net.Socket;
 public class Client {
     public static void main(String[] args) {
         Socket socket = null;
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 1; i++) {
             try {
                 socket = new Socket("localhost", 33333);
 

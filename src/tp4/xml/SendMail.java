@@ -22,7 +22,7 @@ public class SendMail {
         Session session = Session.getInstance(props);
 
         MimeMessage message = new MimeMessage(session);
-        message.setFrom(new InternetAddress("moi@univ-paris13.fr"));
+        message.setFrom(new InternetAddress("info.master.galilee@univ-paris13.fr"));
         message.setRecipient(Message.RecipientType.TO, new InternetAddress(email));
 
         message.setSubject("Directory Content");
