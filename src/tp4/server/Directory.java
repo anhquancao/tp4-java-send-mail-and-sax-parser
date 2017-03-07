@@ -22,9 +22,9 @@ public class Directory {
             Context ctx = new InitialContext(props);
             ne = ctx.list(name);
 
-            while (ne.hasMore()) {
-                System.out.println(ne.next());
-            }
+//            while (ne.hasMore()) {
+//                System.out.println(ne.next());
+//            }
             ctx.close();
         } catch (NamingException e) {
             e.printStackTrace();
